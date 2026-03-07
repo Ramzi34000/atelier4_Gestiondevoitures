@@ -56,3 +56,9 @@ e2.afficherInfo()
 
 v1.afficherInfor()
 v2.afficherInfor()
+
+e1.affecterVoiture(v1)
+e2.affecterVoiture(v2)
+e1.afficherInfo()
+e2.afficherInfo()
+
