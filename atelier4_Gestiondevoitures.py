@@ -43,3 +43,10 @@ class Voiture:
             print("Chauffeur:", self.chauffeur.nom, self.chauffeur.prenom)
         else:
             print("Aucun chauffeur")
+
+
+v1 = Voiture("ABC123", 2025, "DODGE", 50000)
+v2 = Voiture("23452015", 2022, "DACIA", 20000)
+
+e1 = Employe("P12345", "RAMZI", "SAADI")
+e2 = Employe("P67890", "BASSEM", "SAADI")
