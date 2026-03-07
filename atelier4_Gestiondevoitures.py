@@ -50,3 +50,9 @@ v2 = Voiture("23452015", 2022, "DACIA", 20000)
 
 e1 = Employe("P12345", "RAMZI", "SAADI")
 e2 = Employe("P67890", "BASSEM", "SAADI")
+
+e1.afficherInfo()
+e2.afficherInfo()
+
+v1.afficherInfor()
+v2.afficherInfor()
