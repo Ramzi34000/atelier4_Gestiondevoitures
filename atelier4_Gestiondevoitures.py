@@ -62,3 +62,6 @@ e2.affecterVoiture(v2)
 e1.afficherInfo()
 e2.afficherInfo()
 
+e1.retirerVoiture()
+e1.afficherInfo()
+
