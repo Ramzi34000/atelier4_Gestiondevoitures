@@ -35,3 +35,11 @@ class Voiture:
         self.marque = marque
         self.kilometrage = kilometrage
         self.chauffeur = None
+
+    def afficherInfor(self):
+        print(self.marque, self.matricule, self.annee)
+
+        if self.chauffeur:
+            print("Chauffeur:", self.chauffeur.nom, self.chauffeur.prenom)
+        else:
+            print("Aucun chauffeur")
